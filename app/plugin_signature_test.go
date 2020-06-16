@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store/storetest/mocks"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/utils/fileutils"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	cache "github.com/mattermost/mattermost-server/v5/services/cache"
+	cache "github.com/telluria-bruno-gouvea/mattermost-server/v5/services/cache"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store/storetest/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

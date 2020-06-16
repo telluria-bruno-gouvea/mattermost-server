@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/cache2"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/services/cache2"
 )
 
 const OPEN_GRAPH_METADATA_CACHE_SIZE = 10000

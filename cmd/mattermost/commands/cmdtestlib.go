@@ -17,10 +17,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/api4"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/api4"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store/storetest/mocks"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/testlib"
 )
 
 var coverprofileCounters map[string]int = make(map[string]int)

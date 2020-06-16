@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/timezones"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/services/timezones"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store"
 )
 
 type SqlSupplier interface {

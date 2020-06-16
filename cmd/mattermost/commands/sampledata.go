@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/icrowley/fake"
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/app"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/audit"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/utils"
 	"github.com/spf13/cobra"
 )
 

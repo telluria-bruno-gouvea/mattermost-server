@@ -4,8 +4,8 @@
 package searchlayer
 
 import (
-	model "github.com/mattermost/mattermost-server/v5/model"
-	store "github.com/mattermost/mattermost-server/v5/store"
+	model "github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	store "github.com/telluria-bruno-gouvea/mattermost-server/v5/store"
 )
 
 type SearchTeamStore struct {

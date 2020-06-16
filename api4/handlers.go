@@ -6,7 +6,7 @@ package api4
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/web"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/web"
 	"github.com/mkraft/gziphandler"
 )
 

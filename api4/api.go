@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/configservice"
-	"github.com/mattermost/mattermost-server/v5/web"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/app"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/services/configservice"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/web"
 
 	_ "github.com/mattermost/go-i18n/i18n"
 )

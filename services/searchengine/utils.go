@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/utils"
 )
 
 var EmailRegex = regexp.MustCompile(`^[^\s"]+@[^\s"]+$`)

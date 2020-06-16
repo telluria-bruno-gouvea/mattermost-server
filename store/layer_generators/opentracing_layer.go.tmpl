@@ -9,8 +9,8 @@ package store
 import (
 	"context"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/tracing"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/services/tracing"
 	"github.com/opentracing/opentracing-go/ext"
 	spanlog "github.com/opentracing/opentracing-go/log"
 )
@@ -58,7 +58,7 @@ func (s *{{$.Name}}{{$substoreName}}Store) {{$index}}({{$element.Params | joinPa
 				span.LogFields(spanlog.Error({{$element.Results | errorVar}}))
 				ext.Error.Set(span, true)
 			}
-		{{end}}	
+		{{end}}
 		return {{ $element.Results | genResultsVars -}}
 	{{end}}
 }

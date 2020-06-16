@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/app"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/audit"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/mlog"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/utils"
 )
 
 func (api *API) InitUser() {

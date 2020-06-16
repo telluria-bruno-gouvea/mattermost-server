@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/audit"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
 )
 
 func (api *API) InitCommand() {

@@ -4,9 +4,9 @@
 package main
 
 import (
-	"github.com/mattermost/mattermost-server/v5/app/plugin_api_tests"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/app/plugin_api_tests"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/plugin"
 )
 
 type MyPlugin struct {

@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/plugin/plugintest"
-	"github.com/mattermost/mattermost-server/v5/plugin/plugintest/mock"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/plugin"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/plugin/plugintest"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/plugin/plugintest/mock"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/utils/fileutils"
 	"github.com/stretchr/testify/assert"
 )
 

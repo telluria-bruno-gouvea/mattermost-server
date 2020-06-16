@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/cache/lru"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/services/cache/lru"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store/storetest/mocks"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/testlib"
 	"github.com/stretchr/testify/mock"
 )
 

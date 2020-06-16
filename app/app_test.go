@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/searchengine/bleveengine"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/services/searchengine/bleveengine"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store/storetest/mocks"
 )
 
 /* Temporarily comment out until MM-11108

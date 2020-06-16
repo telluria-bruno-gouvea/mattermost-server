@@ -19,12 +19,12 @@ import (
 	"time"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/mlog"
 
-	"github.com/mattermost/mattermost-server/v5/config"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/config"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/model"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/store/storetest"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/utils/fileutils"
 	"github.com/stretchr/testify/require"
 )
 

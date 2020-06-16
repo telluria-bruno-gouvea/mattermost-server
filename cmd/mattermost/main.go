@@ -6,13 +6,13 @@ package main
 import (
 	"os"
 
-	"github.com/mattermost/mattermost-server/v5/cmd/mattermost/commands"
+	"github.com/telluria-bruno-gouvea/mattermost-server/v5/cmd/mattermost/commands"
 
 	// Plugins
-	_ "github.com/mattermost/mattermost-server/v5/model/gitlab"
+	_ "github.com/telluria-bruno-gouvea/mattermost-server/v5/model/gitlab"
 
 	// Enterprise Imports
-	_ "github.com/mattermost/mattermost-server/v5/imports"
+	_ "github.com/telluria-bruno-gouvea/mattermost-server/v5/imports"
 
 	// Enterprise Deps
 	_ "github.com/gorilla/handlers"
